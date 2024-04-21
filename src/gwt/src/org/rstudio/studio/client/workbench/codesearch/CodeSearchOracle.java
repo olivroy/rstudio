@@ -119,7 +119,8 @@ public class CodeSearchOracle extends SuggestOracle
           filename == "cpp11.R" ||
           filename == "cpp11.cpp" ||
           filename == "arrowExports.R" ||
-          filename == "arrowExports.cpp")
+          filename == "arrowExports.cpp" ||
+          filename == ".github/.gitignore")
          return true;
 
       String extension = StringUtil.getExtension(filename);
